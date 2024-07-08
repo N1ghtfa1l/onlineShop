@@ -1,0 +1,9 @@
+.deviceCard {
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+}
+.deviceDescr {
+    display: flex;
+    justify-content: space-between;
+}

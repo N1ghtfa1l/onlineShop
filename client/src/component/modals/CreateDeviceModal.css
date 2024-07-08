@@ -1,0 +1,5 @@
+.createDeviceForm {
+    display: flex;
+    gap: 10px 0px;
+    flex-direction: column;
+}

@@ -1,0 +1,11 @@
+.shopRow {
+    margin: 10px 0;
+}
+.selectBtn {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.selectBtn:hover {
+    background-color: #0859d3;
+    color: white;
+}

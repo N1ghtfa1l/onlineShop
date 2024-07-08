@@ -1,0 +1,38 @@
+.authContainer {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  justify-content: center;
+}
+
+.authCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.authInput {
+  margin: 5px 0;
+  width: 100%;
+}
+.authBtn {
+  margin: 5px 0;
+}
+.authRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
