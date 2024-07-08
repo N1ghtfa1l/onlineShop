@@ -1,5 +1,5 @@
 <p>Технологический стек:
-<p>Frontend: react/redux toolkit/react bootstrap/typescript/axios
+<p><b></b>Frontend: react/redux toolkit/react bootstrap/typescript/axios
 <p>Backend: Node.js/Express.js/jwt token
 <p>Для запуска приложения:
 <p>Для запуска клиентской части перейти в папку client (cd client) и использовать команду npm start
