@@ -6,6 +6,7 @@ import { RootState } from "../../store/store";
 import { useDispatch, useSelector } from "react-redux";
 import { setIsAuth, setUser } from "../../store/slices/AuthUserSlices";
 import { useNavigate } from "react-router-dom";
+import './NavBar.css'
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -34,7 +35,7 @@ const NavBar = () => {
         </Link>
         {isAuth ? (
           <div>
-            <Button onClick={() => navigate(ADMIN_ROUTE)} className="mr-2">
+            <Button onClick={() => navigate(ADMIN_ROUTE)} className="adminPanel">
               Админ панель
             </Button>
             <Button onClick={logOut}>Выйти</Button>
